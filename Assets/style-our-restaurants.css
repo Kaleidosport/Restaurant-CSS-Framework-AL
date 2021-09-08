@@ -1,7 +1,13 @@
+/* General style */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 [class^="col"] {
   text-align: center;
 }
 
+/* Making the map responsive */
 .map-responsive {
   position: relative;
   padding-bottom: 56.25%;
@@ -17,11 +23,13 @@
   position: absolute;
 }
 
+/* Harmonizing strong items */
 strong {
   font-weight: 600;
   color: #7f3e1a;
 }
 
+/* Applying personal styles to components: cards */
 .border-card {
   border: 0.1rem solid #7f3e1a;
   border-radius: 0.4rem;
@@ -30,4 +38,24 @@ strong {
 .bg-dropdown {
   background-color: #ecc782;
 }
-/*# sourceMappingURL=style.css.map */
+
+/* Applying personal styles to components: buttons */
+.btn:focus, .btn-warning:focus, .btn-warning:active, .btn-success:focus, .btn-success:active, .btn:active {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.btn-warning:hover {
+  background-color: #ffa700;
+}
+
+.button-success:hover {
+  background-color: #07673a;
+}
+
+/* Title */
+h1 {
+  font-size: 3rem;
+  font-family: "Dancing Script", cursive;
+}
+/*# sourceMappingURL=style-our-restaurants.css.map */

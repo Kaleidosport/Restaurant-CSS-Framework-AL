@@ -14,12 +14,30 @@
 
     <!-- Additional CSS -->
     <link rel="stylesheet" href="./Assets/style-our-restaurants.css" />
+
+    <!-- Additional font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
   </head>
 
   <body>
-      <div class="row row-cols-1 row-cols-md-3 g-4 my-3 px-3">
+    
+    <header>
+    <!-- Navbar & logo -->
+
+    </header>
+
+    <main>
+       <!-- Title -->
+       <section class="row main-title">
+         <h1 class="col text-warning mt-4">
+           Wood's Burgers
+         </h1>
+       </section>
+       <!-- Responsive Cards -->
+       <section class="row row-cols-1 row-cols-md-3 g-4 my-3 px-3">
+          <!-- 1st card: Rive Gauche -->
           <div class="col">
-              <div class="card h-100 border-card">
+              <article class="card h-100 border-card">
                   <img src="./Assets/burger-4226039_640.jpg" class="card-img-top" alt="Woody's Rive Gauche">
                   <div class="card-body">
                       <h5 class="card-title">
@@ -34,6 +52,7 @@
                         <a href="https://www.takeaway.com/be-fr/" class="btn btn-warning" target="blank_">
                           ➪ Order takeaway
                         </a>
+                        <!-- Dropdown Rive Gauche -->
                         <div class="dropdown">
                           <a class="btn btn-success dropdown-toggle w-100" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Opening hours
@@ -51,10 +70,11 @@
                         </div>
                       </div>
                   </div>
-              </div>
+                </article>
           </div>
+          <!-- 2nd card: Esplanade -->
           <div class="col">
-              <div class="card h-100 border-card">
+              <article class="card h-100 border-card">
                   <img src="./Assets/table-791167_640.jpg" class="card-img-top" alt="Woody's Esplanade">
                   <div class="card-body">
                       <h5 class="card-title">
@@ -69,6 +89,7 @@
                         <a href="https://www.takeaway.com/be-fr/" class="btn btn-warning" target="blank_">
                           ➪ Order takeaway
                         </a>
+                        <!-- Dropdown Esplanade -->
                         <div class="dropdown">
                           <a class="btn btn-success dropdown-toggle w-100" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Opening hours
@@ -86,10 +107,11 @@
                         </div>
                       </div>
                   </div>
-              </div>
+                </article>
           </div>
+          <!-- 3rd card: Grands Prés -->
           <div class="col">
-              <div class="card h-100 border-card">
+              <article class="card h-100 border-card">
                   <img src="./Assets/sandwich-434658_640.jpg" class="card-img-top" alt="Woody's Grands Prés">
                   <div class="card-body">
                       <h5 class="card-title">
@@ -104,6 +126,7 @@
                         <a href="https://www.takeaway.com/be-fr/" class="btn btn-warning" target="blank_">
                           ➪ Order takeaway
                         </a>
+                        <!-- Dropdown Grands Prés -->
                         <div class="dropdown">
                           <a class="btn btn-success dropdown-toggle w-100" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Opening hours
@@ -121,14 +144,22 @@
                         </div>
                       </div>
                   </div>
-              </div>
+                </article>
           </div>
-      </div>
+        </section>
+       <!-- Responsive Cards end -->
 
-      <!-- Responsive Map -->
-      <div class="map-responsive my-4">
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1zQfpVVHdFy9nFzXNSjH_syyOQMgFL85n" width="600px" height="450px" frameborder="0" style="border:0" allowfullscreen class="px-3"></iframe>
-      </div>
+       <!-- Responsive Map -->
+       <section class="map-responsive my-4">
+         <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1zQfpVVHdFy9nFzXNSjH_syyOQMgFL85n" width="600px" height="450px" frameborder="0" style="border:0" allowfullscreen class="px-3"></iframe>
+       </section>
+       <!-- Responsive Map end -->
+    </main>
+
+    <footer>
+      <!-- Lower bar for external links -->
+
+    </footer>
 
   </body>
 
