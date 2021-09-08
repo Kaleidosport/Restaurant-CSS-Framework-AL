@@ -1,0 +1,39 @@
+$strongcolor: #7f3e1a;
+$bgdropdowncolor: #ecc782;
+
+[class^="col"]
+{
+    text-align: center;
+}
+
+.map-responsive
+{
+  position:  relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+  }
+}
+
+strong
+{
+    font-weight: 600;
+    color: $strongcolor;
+} 
+
+.border-card
+{
+    border: 0.1rem solid $strongcolor;
+    border-radius: 0.4rem;
+}
+
+.bg-dropdown
+{
+    background-color: $bgdropdowncolor;
+}

@@ -1,0 +1,22 @@
+Vert : #008037
+Brun : #7f3e1a
+Orange : #f08c2b
+Jaune : #f4e038
+
+Pour ma partie (adresses, horaires, carte), je compte disposer 3 cartes :
+https://getbootstrap.com/docs/5.1/components/card/
+qui comporteraient à la fin 2 boutons d'option (par exemple, contact et commander),
+peut-être sous forme de collapse comme le fait Burger King (https://stores.burgerking.be/fr) :
+https://getbootstrap.com/docs/5.1/components/collapse/
+
+Inspiration pour la carte : https://codepen.io/nikki-peel/pen/RwavQer
+
+Inspirations de pages similaires : https://huggysbar.com/fr/decouvrez-nos-restos/
+https://www.exki.be/fr/restaurants
+https://mcdonalds.be/fr/restaurants
+Burger King (voir ci-dessus)
+
+Icônes : https://icons.getbootstrap.com/
+
+Inspiration pour la carte : https://codepen.io/lentilz/pen/ivhcx
+Plus compliqué : https://codepen.io/js1599/embed/bNKjYM/?theme-id=modal
