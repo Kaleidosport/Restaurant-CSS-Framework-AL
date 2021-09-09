@@ -3,6 +3,7 @@
 **Author :** [Kaleidosport](https://github.com/Kaleidosport).  
 **Context :** This is an assignment pertaining to the Junior WebDev's training provided by [BeCode](https://github.com/becodeorg).  
 **End product :** [Our restaurants](https://kaleidosport.github.io/Restaurant-CSS-Framework-AL/)  
+**Group repository :** [Restaurant-CSS-Framework](https://github.com/FourneauxThibaut/restaurant-css-framework/tree/development)   
 **Last update :** September 9th 2021.  
 
 ## Learning objectives  
