@@ -2,8 +2,8 @@
 
 **Author :** [Kaleidosport](https://github.com/Kaleidosport).  
 **Context :** This is an assignment pertaining to the Junior WebDev's training provided by [BeCode](https://github.com/becodeorg).  
-**End product :** [Our restaurants](https://kaleidosport.github.io/restaurant-css-framework-al)  
-**Last update :** September 6th 2021.  
+**End product :** [Our restaurants](https://kaleidosport.github.io/Restaurant-CSS-Framework-AL/)  
+**Last update :** September 9th 2021.  
 
 ## Learning objectives  
 
